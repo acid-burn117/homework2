@@ -12,72 +12,31 @@
 <body>
     <div class="main-header">
         <h1>Welcome to my Portfolio</h1>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#About-Me">About Me</a>
-                    </li>
-                        <a href="#Deployed-Projects">Deployed Projects</a>
-                    </li>
-                    <li>
-                        <a href="#Contact-Me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#Connect-With_me">Connect With Me</a>
-                    </li>
-             </ul>
-         </div>
+        <div class="ulContainer">
+            <ul>
+                <li>
+                    <a href="#section2">About Me</a>
+                </li>
+                <a href="#Deployed-Projects">Deployed Projects</a>
+                </li>
+                <li>
+                    <a href="#Contact-Me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#Connect-With_me">Connect With Me</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <section Class="section1">
         <div class="content">
             <h2>About Me</h2>
-         <img src="./assets/images/mug-shot.jfif" class="mug"/>
+            <img src="./assets/images/mug-shot.jfif" class="mug" />
             <p>
-            Seasoned IT professional looking to utilize newly deveoped skills in pursuit of new career  path.
-            </p>
-         </div>    
-    </section>
-    <section class="section2">
-        <h3>Deployed Projects</h3>
-        <div class="Project1">
-            <div class="content"></div>
-            <div class="hero"></div>
-            <h4>My First Deployed Project,  Horisen.com </h4>
-            <p>
-                This is my first deployed project. I cleaned up the code fot his site and made sure code was not DRY
-            </p>
-            <a href="https://acid-burn117.github.io/Horisen.com/">Link to first Project</a>
-        </div>
-            
-        <div class="content"></div>
-        <div class="Projects">
-            <img src="./assets/images/pro2.jpg" class="float-left" />
-            <h4>My Second Deployed Project</h4>
-            <a href="link">Link to second Project</a>
-            <p>
-                This is my second project.
-            </p>
-        </div>
-
-        <div class="Projects">
-            <img src="./assets/images/pro3.jpg" class="float-right" />
-            <h4>My Third Deployed Project</h4>
-            <a href="link">Link to third Project</a>
-            <p>
-                This is my third project.
-            </p>
-        </div>
-
-        <div class="Projects">
-            <img src="./assets/images/pro4.jpg" class="float-left"/>
-            <h4>My Fourth Deployed Project</h4>
-            <a href="link">Link to fourth Project</a>
-            <p>
-                This is my fourth project.
+                Seasoned IT professional looking to utilize newly deveoped skills in pursuit of new career path.
             </p>
         </div>
     </section>
-
     <section class="contact">
         <h5>Contact Me</h5>
         <ul>
@@ -85,6 +44,54 @@
             <a>Cell: 123-456-7890</a>
         </ul>
     </section>
+    <section class="section2" id="section2">
+        <h3>Deployed Projects</h3>
+        <div class="Project1">
+            <div class="content"></div>
+            <div class="hero"></div>
+            <h4>My First Deployed Project, Horisen.com </h4>
+            <p>
+                This is my first deployed project. I cleaned up the code fot his site and made sure code was not DRY
+            </p>
+            <a href="https://acid-burn117.github.io/Horisen.com/">Link to first Project</a>
+        </div>
+
+        <div class="content"></div>
+        <div class="ProjectsLeft">
+            <img src="./assets/images/pro2.jpg" class="float-left" />
+            <div class="breaks">
+                <h4>My Second Deployed Project</h4>
+                <a href="link">Link to second Project</a>
+                <p>
+                    This is my second project.
+                </p>
+            </div>
+        </div>
+
+        <div class="ProjectsRight">
+            <div class="breaks">
+                <h4>My Third Deployed Project</h4>
+                <a href="link">Link to third Project</a>
+                <p>
+                    This is my third project.
+                </p>
+            </div>
+            <img src="./assets/images/pro3.jpg" class="float-right" />
+        </div>
+
+        <div class="ProjectsLeft">
+            <img src="./assets/images/pro4.jpg" class="float-left" />
+            <div class="breaks">
+                <h4>My Fourth Deployed Project</h4>
+                <a href="link">Link to fourth Project</a>
+                <p>
+                    This is my fourth project.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
 
     <footer class="footer">
 
@@ -101,5 +108,7 @@
         </ul>
 
     </footer>
+
 </body>
+
 </html>
